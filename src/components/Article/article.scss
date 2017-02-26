@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {font-family: "anticon";
+  src: url("../../assets/fonts/iconfont.eot?t=1479642802629"); /* IE9*/
+  src: url("../../assets/fonts/iconfont.eot?t=1479642802629#iefix") format('embedded-opentype'), /* IE6-IE8 */
+  url("../../assets/fonts/iconfont.woff?t=1479642802629") format('woff'), /* chrome, firefox */
+  url("../../assets/fonts/iconfont.ttf?t=1479642802629") format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url("../../assets/fonts/iconfont.svg?t=1479642802629#anticon") format('svg'); /* iOS 4.1- */
+}
+
+.anticon {
+  font-family:"anticon" !important;
+  font-size:13px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i_eye:before { content: "\e687"; font-size:15px;}
+.i_message:before { content: "\e6ab"; }
+.i_heart:before { content: "\e6a3"; }
+.i_paycircle:before { content: "\e6a5"; }
+
+.articlePage {
+	width: 625px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.avatar {
+	float: left;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	&>img {
+		width: 32px;
+		height: 32px;
+	}
+}
+
+.username {
+	float: left;
+	font-size: 14px;
+	padding: 8px 15px;
+	color: #333;
+}
+
+.passedTime {
+	padding-top: 9px;
+	float: left;
+	font-size: 13px;
+	color: #888;
+}
+
+.title {
+	display: block;
+	clear: left;
+	width: 460px;
+	font-size: 18px;
+	color: #444;
+	font-weight: 700;
+	margin-bottom: 5px;
+	&:hover {
+		text-decoration: underline;
+	};
+}
+
+.content {
+	clear: left;
+	display: block;
+	width: 460px;
+	font-size: 13px;
+	color: #333;
+	line-height: 25px;
+	margin-bottom: 7px;
+}
